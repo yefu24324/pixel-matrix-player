@@ -13,7 +13,7 @@ const colors3Bit = [
 ];
 
 const canvas = document.createElement("canvas");
-document.body.appendChild(canvas);
+// document.body.appendChild(canvas);
 export function convertPixelMatrixFrame(
   img: HTMLImageElement | HTMLVideoElement,
   options: { xSize: number; ySize: number },
