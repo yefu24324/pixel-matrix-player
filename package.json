@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "pnpm dev",
+    "start": "vite",
     "dev": "vite",
-    "serve": "y-websocket",
+    "build": "vite build",
+    "serve": "vite preview",
     "lint": "biome lint",
     "format": "biome lint --write --unsafe"
   },

@@ -72,12 +72,13 @@ export function PixelMatrixPlayer(props: PixelMatrixPlayerProps) {
       style={{ "min-width": `${getWidth()}px`, "max-width": `${getWidth()}px` }}
       class="flex flex-wrap gap-1.5 bg-black p-4 rounded-xl"
     >
+      {/* 用来调试用来, 看看宽度计算正确不正确 TODO: 待删 */}
       <For each={new Array(props.frame.xSize)}>
         {() => {
           return (
             <div
               class={image8cGridVariants({ theme: "violet", size: props.pixelSize, bit: 6 })}
-              style={{ height: "40px" }}
+              style={{ height: "0" }}
             />
           );
         }}
