@@ -1,4 +1,4 @@
-# 像素矩阵播放器 (Pixel Matrix Player)
+# 像素矩阵播放器 | Pixel Matrix Player
 
 一个基于Web前端的工具，用于将图片和视频转换成像素点阵并播放，支持8色压缩。效果类似于GitHub贡献活动图的风格。
 
@@ -41,28 +41,24 @@ cd pixel-matrix-player
 
 2. 安装依赖
 ```bash
-npm install
-# 或
 pnpm install
 ```
 
 3. 启动开发服务器
 ```bash
-npm run dev
-# 或
 pnpm dev
 ```
 
 4. 打开浏览器访问 `http://localhost:3000`
 
-### 发布部署
+### 构建与部署
 
-1. 编译
+1. 构建项目
 ```bash
 pnpm build
 ```
 
-2. 启动生产服务器
+2. 运行生产服务器
 ```bash
 pnpm serve
 ```
