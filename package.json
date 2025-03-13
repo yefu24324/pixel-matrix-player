@@ -1,0 +1,36 @@
+{
+  "name": "pixel-matrix-player",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm dev",
+    "dev": "vite",
+    "serve": "y-websocket",
+    "lint": "biome lint",
+    "format": "biome lint --write --unsafe"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@solidjs/router": "^0.15.3",
+    "@webav/av-cliper": "^1.0.19",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "solid-js": "^1.9.5",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/vite": "^4.0.13",
+    "tailwindcss": "~4.0.13",
+    "vite": "^6.2.0",
+    "vite-plugin-solid": "^2.11.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "author": {
+    "name": "夜浮卿(yefu)",
+    "email": "243249439@qq.com",
+    "github": "https://github.com/yefu24324/pixel-matrix-player"
+  }
+}
